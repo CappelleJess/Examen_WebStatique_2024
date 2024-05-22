@@ -1,13 +1,16 @@
 body {
 	background: #cdb5cd;
 	font: 80% verdana, arial, sans-serif;
-}
-
-.container {
 	max-width: 900px;
 	margin: auto;
 	padding: 10px;
 }
+
+/* .container { */
+	/* max-width: 900px; */
+	/* margin: auto; */
+	/* padding: 10px; */
+/* } */
 
 .topnav {
 	width: 800px;
@@ -115,23 +118,21 @@ h1 {
 	float: left;
 	background: #c1cdcd;
 	border-radius: 10px;
+	height: 410px;
 }
 
 #leftcol {
 	width: 180px;
-	height: 470px;
 }
 
 #centercol {
 	width: 380px;
-	height: 470px;
 	overflow: auto;
 	text-align: center;
 }
 
 #rightcol {
 	width: 180px;
-	height: 470px;
 }
 
 #piedpage {
@@ -181,6 +182,10 @@ form {
 	background: #ffe1ff;
 }
 
+input:focus {
+	background-color: #e6dae6;
+}
+
 input {
 	width: 140px;
 	border: 1px solid #8b7b8b;
@@ -189,4 +194,22 @@ input {
 
 article {
 	display: block;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #90a4a4; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6c7b7b; 
 }
