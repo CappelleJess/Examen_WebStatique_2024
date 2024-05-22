@@ -1,32 +1,58 @@
 body {
-	width: 100%;
+	background: #cdb5cd;
 	font: 80% verdana, arial, sans-serif;
+	margin: 1%;
 }
 
 #logo {
 	float: left;
-	margin-left: 20px;
-	width: 100px;
-	height: 100px;
+	margin-left: 2%;
+	width: 8;
+	height: 8%;
 	text-align: center;
 	background: #eed2ee;
 	border-radius: 10px;
 }
 
-img {
-	width: 100px;
-	height: 100px;
-}
-
 #entete {
-	margin-left: 140px;
-	width: 660px;
-	height: 100px;
+	margin-left: 10%;
+	margin-bottom: 1%;
+	width: 40%;
+	height: 100px;;
 	background: #eed2ee;
 	text-align: center;
 	border-radius: 10px;
 }
 
 h1 {
-	padding-top: 30px;
+	padding: 10px;
+}
+
+.navbar, .center  {
+	width: 10%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	background: #eed2ee;
+	border: 1px solid #8b7b8b;
+	border-radius: 10px;
+}
+
+.navbar li a {
+	text-decoration: none;
+	display: block;
+}
+
+.center {
+	width: 50%;
+	overflow: auto;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+  border:1px solid black;
 }
