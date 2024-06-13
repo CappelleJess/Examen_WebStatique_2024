@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML/CSS - Fin de Module</title>
+	<style>
+		body {
+		  height: 100%;
+		  background: #52685f;
+		  font: 80% verdana, arial, sans-serif;
+		  margin-left: 25%;
+		}
+
+		#logo {
+		  width: 8.5em;
+		  float: left;
+		  background: #739185;
+		}
+
+		#imglogo {
+		  width: 8.5em;
+		  height: 8.5em;
+		  display: block;
+		  margin: auto;
+		}
+
+		#entete {
+		  margin-left: 15em;
+		  width: 50em;
+		  height: 8.5em;
+		  text-align: center;
+		  background: #739185;
+		  margin-bottom: 2em;
+		}
+
+		h1 {
+		  padding: 1em;
+		}
+
+		h3 {
+		  padding-left: 10px;
+		}
+
+		ul {
+		  margin: 10px;
+		  padding: 0;
+		}
+
+		.navbar { 
+		  float: left;
+		  font-weight: bold;
+		  background-color: #739185;
+		  width: 10em;
+		}
+
+		.navbar li {
+		  display: inline-block;
+		  margin-right: 20px;
+		}
+
+		.navbar li a {
+		  display: block;
+		  text-decoration: none;
+		  color: #fff;
+		}
+
+		.navbar li a:hover {
+		  color: #ccc;
+		}
+
+		/* #map { */
+		  /* width: 100%; */
+		  /* height: 100%; */
+		/* } */
+
+		.center {
+		  margin-left: 15em;
+		  width: 50em;
+		  height: auto;
+		  text-align: center;
+		  background-color: #739185;
+		  padding-bottom: 2em;
+		}
+
+		table {
+		  width: 40em;
+		  font-size: 100%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  border-collapse: collapse;
+		}
+
+		th, td {
+		  border: 1px solid #6c7b73;
+		  padding: 10px;
+		  text-align: left;
+		}
+
+		th {
+		  font-weight: bold;
+		  font-size: 1.3em;
+		}
+
+		td {
+		  font-size: 1em;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div id="logo">
+			<a href="accueil.html"><img src="media/logo1.png" alt="logo" id="imglogo"></a>
+		</div>
+		<div id="entete">
+			<h1>Accueil</h1>
+		</div>
+	</header>
+		<nav class="navbar">
+			<h3>Menu</h3>
+				<ul>
+					<li><a href="imagemap.html">Accueil</a></li>
+					<li><a href="extensibletableau.html">Tableau</a></li>
+					<li><a href="designfixe.html">Design fixe</a></li>
+				</ul>
+		</nav>
+		<div class="center">
+			<h2>Image Map</h2>
+				<img src="media/imgmap.png" alt="imagemap" usemap="#fungimap" id="map">
+				
+				<map name="fungimap">
+					<area shape="rect" coords="0,0,132,206" alt="amanite" title="Amanite-Tue-Mouche" href="https://fr.wikipedia.org/wiki/Amanite_tue-mouches">
+					<area shape="rect" coords="139,0,305,143" alt="volvaire" title="Volvaire Parasite" href="https://fr.wikipedia.org/wiki/Volvaire_parasite">
+					<area shape="rect" coords="312,0,418,143" alt="truffe" title="Truffe Noire" href="https://fr.wikipedia.org/wiki/Truffe_noire">
+					<area shape="rect" coords="425,0,557,217" alt="conocybe" title="Conocybe Pubescent" href="https://fr.wikipedia.org/wiki/Conocybe_pubescens">
+					<area shape="rect" coords="0,217,132,302" alt="muscardine" title="Muscardine" href="https://fr.wikipedia.org/wiki/Muscardine">
+					<area shape="rect" coords="139,150,418,300" alt="trompette" title="Trompette de la Mort" href="https://fr.wikipedia.org/wiki/Trompette_de_la_mort">
+					<area shape="rect" coords="0,308,97,445" alt="parmellie" title="Parméllie des Murailles" href="https://fr.wikipedia.org/wiki/Xanthoria_parietina">
+					<area shape="rect" coords="106,308,419,445" alt="collybie" title="Collybie des Cônes" href="https://fr.wikipedia.org/wiki/Strobilurus_(champignon)">
+					<area shape="rect" coords="425,221,555,445" alt="morille" title="Morille Cônique" href="https://fr.wikipedia.org/wiki/Morchella_conica">
+				</map>
+				
+
+			<iframe src="https://www.guidedeschampignons.com/tous-les-champignons/" title="Tous les champignons"></iframe>
+		</div>
+</body>
+</html>
